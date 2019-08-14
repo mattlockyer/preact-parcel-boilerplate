@@ -1,0 +1,18 @@
+{
+  "name": "preact-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "Preact, SCSS, CSS Modules bundled with Parcel",
+  "author": "Matt Lockyer",
+  "license": "ISC",
+  "dependencies": {
+    "preact": "^8.5.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.22.9"
+  },
+  "scripts": {
+    "start": "pkill node; parcel ./src/index.html --open > output.log &"
+  }
+}
